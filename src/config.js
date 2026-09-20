@@ -15,7 +15,7 @@ export const config = {
   deviceId: process.env.RECEIPTS_DEVICE_ID || 'frani-receipts-1',
   nametag: process.env.RECEIPTS_NAMETAG || '',
   receiptsDir: process.env.RECEIPTS_DIR || './receipts',
-  decimals: Number(process.env.RECEIPTS_DECIMALS || '8'),
+  decimals: Number(process.env.RECEIPTS_DECIMALS || '18'),
   // When true, the daemon records a receipt for every confirmed incoming
   // payment automatically. Off by default (the book is primarily an archive).
   autoRecordIncoming: process.env.RECEIPTS_AUTO_RECORD === '1',

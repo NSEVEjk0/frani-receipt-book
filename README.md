@@ -115,7 +115,7 @@ journalctl -u frani-receipt-book -f
   "network": "testnet2",
   "id": "RCP-285C37AB",
   "kind": "payment",
-  "amountBase": "500000000",
+  "amountBase": "5000000000000000000",
   "currency": "UCT",
   "counterparty": "@bob",
   "memo": "Design work",
