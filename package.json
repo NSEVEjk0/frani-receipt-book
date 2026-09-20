@@ -1,0 +1,26 @@
+{
+  "name": "frani-receipt-book",
+  "version": "1.0.0",
+  "description": "Searchable archive of signed payment/work receipts on Unicity testnet2. Made by CRYPTFRANI.",
+  "type": "module",
+  "bin": {
+    "receipts": "bin/receipts.js"
+  },
+  "scripts": {
+    "start": "node bin/receipts.js daemon",
+    "list": "node bin/receipts.js list",
+    "show": "node bin/receipts.js show",
+    "verify": "node bin/receipts.js verify",
+    "about": "node bin/receipts.js about",
+    "help": "node bin/receipts.js help",
+    "test": "node test/receipt.test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@unicitylabs/sphere-sdk": "0.17.3",
+    "ws": "^8.21.3"
+  }
+}
